@@ -84,6 +84,9 @@
 .imgincrsl {
     height: 100%;
 }
+#testimonial {
+    padding-top: 3em;
+}
 
 .testimonialh{
     text-align: center;
@@ -125,7 +128,7 @@
 .testimg3{
     position: absolute;
     left: 21em;
-    top: 141em;
+    top: 145em;
 }
 
 .testimg4{
@@ -145,7 +148,7 @@
 }
 .testimg7{
     position: absolute;
-    top: 140em;
+    top: 143em;
     right: 6em;
 }
 
@@ -194,4 +197,96 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+    padding-top: 5em;
+        flex-wrap: wrap;
+    }
+    
+    .bottomlogo {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    
+    @media screen and (max-width: 800px) {
+        .mainheading {
+            padding-top: 0.5em;
+        }
+    
+        .secmainimg {
+            position: absolute;
+            right: 0em;
+            top: 46em;
+        }
+    
+        .threecolumns {
+            justify-content: center;
+        }
+    
+        .fiveimgs {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+    
+        }
+    
+        .frstinfive,
+        .scndinfive,
+        .thrdinfive,
+        .frthinfive,
+        .fiveinfive {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px 0px;
+        }
+    
+        .mainimg {
+            padding-left: 5em;
+        }
+    
+        .chkdrop {
+            padding-left: 0em;
+            padding-bottom: 10px;
+        }
+    
+        .testimonialbottompara {
+            padding: 0em 7em;
+        }
+    
+        .testimg3 {
+            position: absolute;
+            left: 9em;
+            top: 203em;
+        }
+    
+        .testimg2 {
+    
+            left: 10em;
+        }
+    
+        .testimg4 {
+            left: 0em;
+        }
+    
+        .testimg5 {
+            right: 3em;
+        }
+    
+        .testimg6 {
+            position: absolute;
+            top: 197em;
+            right: 11em;
+        }
+    
+        .testimg7 {
+            position: absolute;
+            top: 202em;
+            right: 0em;
+        }
+    
+        .testimg8 {
+            position: absolute;
+            top: 203em;
+            right: 12em;
+        }
+   }
