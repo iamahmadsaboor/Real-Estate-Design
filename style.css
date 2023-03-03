@@ -85,3 +85,113 @@
     height: 100%;
 }
 
+.testimonialh{
+    text-align: center;
+    padding: 1em 0em;
+}
+.testimonialp{
+    text-align: center;
+    padding: 0em 0em;
+    padding-bottom: 2em;
+}
+.testimonialimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.testimonialbottompara{
+    padding: 1em 27em;
+    text-align: center;
+}
+
+.testimg1{
+    position: absolute;
+    left: 1em;
+}
+
+.testimg2{
+    position: absolute;
+    left: 14em;
+}
+.testimg3{
+    position: absolute;
+    left: 21em;
+    top: 141em;
+}
+
+.testimg4{
+    position: absolute;
+    left: 2em;
+}
+
+.testimg5{
+    position: absolute;
+    right: 8em;
+}
+
+.testimg6{
+    position: absolute;
+    right: 19em;
+    top: 136em;
+}
+.testimg7{
+    position: absolute;
+    top: 140em;
+    right: 6em;
+}
+
+.testimg8{
+    position: absolute;
+    top: 141em;
+    right: 22em;
+}
+
+.newsletter{
+    background-color: #0f2a47;
+    padding-top: 9em;
+    height: 368px;
+}
+.newstext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.newsh{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+}
+.newsp{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+}
+
+.newsplaceholder{
+    padding: 1px 30px;
+    margin: 1px -4px 0px 2px;
+}
+.searchicon{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 3px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
