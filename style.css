@@ -209,12 +209,16 @@
     }
 
 /* Media Queries Here */
+
 @media screen and (max-width: 1050px) {
     .testimonialbottompara {
         padding: 4em;
     }
 }
     @media screen and (max-width: 800px) {
+        .navvyitems {
+                margin: 0px;
+            }
         .mainheading {
             padding-top: 0.5em;
         }
@@ -251,7 +255,7 @@
         }
     
         .mainimg {
-            padding-left: 5em;
+            padding-left: 1em;
         }
     
         .chkdrop {
@@ -329,4 +333,24 @@
     .testimonialbottompara {
         padding: 0em;
     }
+ }
+
+
+ @media screen and (max-width: 600px) {
+     .imgincrsl {
+         height: 100%;
+         width: 100%;
+     }
+
+     .frstinfive,
+     .scndinfive,
+     .thrdinfive,
+     .frthinfive,
+     .fiveinfive {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         flex-direction: column;
+         padding: 20px 0px;
+     }
 }
